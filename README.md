@@ -1,22 +1,22 @@
 # Python_Route_Optimization_TSP
-We use Gene algorithm to solve the TSP problem and applied the solution to perform route optimization
+We use the Gene algorithm to solve the TSP problem and applied the solution to perform route optimization
 
 # Project background
 The Travelling Salesperson Problem (TSP) is defined as "Given a list of cities and the distances between each pair of cities, what is the shortest possible route that visits each city exactly once and returns to the origin city?"
 
-We usually encounter this issue in real life. For example, I want to visit several cities, and what is the best route. In business world, companies like Fedex need to optimize its route to save time and money, thereby providing better service.
+We usually encounter this issue in real life. For example, I want to visit several cities, and what is the best route. In the business world, companies like FedEx need to optimize its route to save time and money, thereby providing better service.
 
 In this project, I choose several universities in the Mid-West that I want to visit. The goal is to minimize the total distance I need to travel.
 
 # Universities to visit
-     'Purdue University'
-     'Indiana university'
-     'University of Chicago'
-     'Indiana State University'
-     'Notre Dame university'
-     'Butler University'
-     'UIUC'
-     'Illinois State University'
+     Purdue University
+     Indiana University
+     University of Chicago
+     Indiana State University
+     Notre Dame University'
+     Butler University
+     UIUC
+     Illinois State University
 
 # Get the coordinates of each university
 We could use geopy to get the coordinates of each university. Remember to set user_agent for the Nominatim (It's discouraged to use the default one)
@@ -32,12 +32,12 @@ As the picture uses coordinates, it may not be very correct. To solve that issue
 ![image](https://user-images.githubusercontent.com/58899897/194609537-082241d9-8e30-4c53-9803-ef5a9e1a59e3.png)
 
 # Calculate the distance
-We use Haversine function to calclate the distances between two nodes and create a matrix to store the values.
+We use the Haversine function to calculate the distances between two nodes and create a matrix to store the values.
 ![image](https://user-images.githubusercontent.com/58899897/194611763-e34645db-ea72-41a2-9e75-8add2416e279.png)
 
 
 # solve TSP 
-We use Gene algoorithm to solve this problem.
+We use Gene algorithm to solve this problem.
 
 # Final Result
 ![image](https://user-images.githubusercontent.com/58899897/194611038-406f7274-f2cc-4a7f-beca-9cf357c5587c.png)
