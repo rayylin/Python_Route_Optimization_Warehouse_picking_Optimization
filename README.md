@@ -45,9 +45,16 @@ We use Gene algorithm to solve this problem.
 
 The initial distance is 1467, and the best distance after 180 iterations is 892. There is a big decrease in the total distance travel!
 
-
-We can apply this algorithm for warehouse picking operations. The only thing we need to change is the function to calculate distance.
+# warehouse picking operations
+We can apply this algorithm for warehouse picking operations. 
 ![image](https://user-images.githubusercontent.com/58899897/198854345-37982041-5955-4084-93cb-92cee62bc4ca.png)
+
+First we need to define the layout of warehouse
+
+![image](https://user-images.githubusercontent.com/58899897/198861053-b93a60e8-63de-4853-8c49-6cf510f204e0.png)
+
+The only thing we need to change is the function to calculate distance.
+
 ![image](https://user-images.githubusercontent.com/58899897/198854398-a91c8543-c8de-4df2-bca9-ad0cffc15eff.png)
 
 
