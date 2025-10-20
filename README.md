@@ -1,7 +1,7 @@
 # Python_Route_Optimization_TSP
 We use the Gene algorithm to solve the Traveling Sales Person problem and applied the solution to perform route optimization. Users enter the names or addresses they want to visit.The model turns the addresses into coordinates, calculates the distances among points, performs the Gene Algorithm, and returns the best route.
 
-# Project background info
+# Project background infomation
 The Travelling Salesperson Problem (TSP) is defined as "Given a list of cities and the distances between each pair of cities, what is the shortest possible route that visits each city exactly once and returns to the origin city?"
 
 We usually encounter this issue in real life. For example, I want to visit several cities, and what is the best route. In the business world, companies like FedEx need to optimize its route to save time and money, thereby providing better service.
