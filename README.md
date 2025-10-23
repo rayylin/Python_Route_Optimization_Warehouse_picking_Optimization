@@ -1,4 +1,4 @@
-# Python_Route_Optimization_TSP
+# Python Route Optimization - TSP
 We use the Gene algorithm to solve the Traveling Sales Person problem and applied the solution to perform route optimization. Users enter the names or addresses they want to visit.The model turns the addresses into coordinates, calculates the distances among points, performs the Gene Algorithm, and returns the best route.
 
 # Project background infomation
